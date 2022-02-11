@@ -16,6 +16,11 @@ git clone <REPO>
 sh apache-jmeter-5.2.1/bin/jmeter
 ```
 
+1-1. build
+```shell
+docker build -t softmagic/jmeter .
+```
+
 
 2. Put the needed csv to the *data* folder (in JMeter just put the filename in the path) : Be sure your filename have a .csv suffix (in lowercase)
 3. Run your scenario with
