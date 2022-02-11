@@ -68,7 +68,7 @@ if [[ -z "${SLAVE}" ]]; then
         HOST_LIST=()
 
         while [[ ${i} -le ${END} ]]; do
-            HOST_LIST+=("jmeter_jmeter-slave_${i}")
+            HOST_LIST+=("jmeter-jmeter-slave-${i}")
             i=$((i + 1))
         done
 
